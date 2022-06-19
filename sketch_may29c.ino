@@ -397,6 +397,7 @@ void display_segment(int number)
 }
 void setup() {
 // Input arduino mega 2560 start pin 2 - 16
+ Serial.begin(9600);
  pinMode(sw1,INPUT); 
  pinMode(sw2,INPUT); 
  pinMode(sw3,INPUT); 
